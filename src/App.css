@@ -1,38 +1,95 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* CONTACT FORM */
+
+
+.contact-form-main{
+  width: 100%;
+  height: 100vh;
+}
+
+.contact-form-contact-div{
+  margin: 0 auto !important;
+  -ms-transform: translateY(20%);
+   transform: translateY(20%);
+  
+}
+
+.contact-form-input-fields{
+  margin-top: 10px !important;
+  width: 30%;
+}
+
+.contact-form-contact-heading{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.contact-form-submit-btn{
+  margin-top: 30px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (max-width: 900px) {
+  .contact-form-input-fields{
+      width: 70% !important;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+/* CONTACT FORM END */
+
+
+
+
+
+
+
+/* Payment Form */
+.selectBank{
+  width: 30% !important;
 }
 
-.App-link {
-  color: #61dafb;
+
+/* NAVBAR */
+.myNavbar{
+  background-color: black !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* SLIDER */
+
+.hotel-slider-imgs{
+  height: 90vh;
 }
+
+/* CARDS */
+.checkHotelHeading{
+  margin-top: 50px;
+}
+.hotelCardDiv{
+  margin:0 auto;
+  margin-top: 20px !important;
+  height: 450px;
+  width: 400px !important;
+}
+
+/* COPYRIGHT */
+
+.copyrightBar{
+  background-color: black !important;
+  height: 50px !important;
+  /* margin: 0px !important; */
+  /* padding: 0px !important; */
+  margin-bottom: -20px;
+  }
+  .copyrightBar p{
+    padding-top: 10px;
+    /* float: right; */
+    color: white;
+    margin-left: 75%;
+  }
+
+  /* .SIGNUP */
+  .signBtn{
+    margin: 20px !important;
+  }
