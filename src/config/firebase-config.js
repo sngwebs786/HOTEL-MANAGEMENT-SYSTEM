@@ -22,9 +22,9 @@ const firebaseConfig = {
   const analytics = getAnalytics(app);
 
   const fire = firebase.initializeApp(firebaseConfig)
-  const authentication = getAuth(app)
-  const database = getDatabase(app);
+  const auth = getAuth(app)
+  const db = getDatabase(app);
 
-  export {database,authentication,app,fire}
+  export {db,auth,app,fire}
 
   // export default fire;

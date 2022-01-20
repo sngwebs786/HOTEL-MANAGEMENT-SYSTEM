@@ -1,0 +1,54 @@
+
+
+.booking-hd{
+  text-align: center;
+  margin-bottom: 50px;
+  }
+
+  .dark-shade{
+    background-color: rgb(221, 219, 219) !important;
+    border-bottom: 1px solid rgb(177, 176, 176) !important;
+  }
+  
+  .thead-light tr{
+    height: 50px !important;
+
+  }
+
+  .confirm-booking-btn:hover{
+    background-color: #1f5156;
+    color: white;
+    border: #fff;
+  }
+  .confirm-booking-btn:focus{
+    border: none;
+  }
+
+  .confirm-booking-btn{
+    background-color: #fff;
+    color: #1f5156;
+    border: 2px solid #1f5156;
+    font-weight: bold;
+  }
+
+
+  /* MYBOOKINGS */
+
+  .start-booking-btn{
+    background-color: #1f5156;
+    color: white;
+    border: #1f5156;
+  }
+
+  .start-booking-btn:hover{
+    background-color: #fff;
+    color: #1f5156;
+    border: 2px solid #1f5156;
+  }
+  .start-booking-btn:focus{
+    border: none;
+  }
+
+  .error{
+    width: 100%;
+  }

@@ -1,0 +1,270 @@
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+.container .card .icon {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+/* width: auto !important; */
+    height: 100%;
+
+    /* background: #2c73df; */
+    /* background-color: yellow; */
+
+}
+
+.container .card .icon .fa {
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    font-size: 80px;
+
+    color: #fff;
+
+}
+.slide{
+/* background-color: orange; */
+width: auto !important;
+}
+.container .card .slide {
+
+    width: 300px;
+
+    height: 200px;
+
+    transition: 0.5s;
+
+}
+
+.container .card .slide.slide1 {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    z-index: 1;
+
+    transition: .7s;
+
+    transform: translateY(100px);
+
+}
+
+.container .card:hover .slide.slide1{
+
+    transform: translateY(0px);
+
+}
+
+.container .card .slide.slide2 {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 20px;
+
+    box-sizing: border-box;
+
+    transition: .8s;
+
+    transform: translateY(-100px);
+
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+
+}
+
+.container .card:hover .slide.slide2{
+
+    transform: translateY(0);
+
+}
+
+.container .card .slide.slide2::after{
+
+    content: "";
+
+    position: absolute;
+
+    width: 30px;
+
+    height: 4px;
+
+    bottom: 15px;
+
+    left: 50%;
+
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    background: #2c73df;
+    /* width: auto !important; */
+
+}
+
+.container .card .slide.slide2 .content p {
+
+    margin: 0;
+
+    padding: 0;
+
+    text-align: center;
+
+    color: #414141;
+
+}
+
+.container .card .slide.slide2 .content h3 {
+
+    margin: 0 0 10px 0;
+
+    padding: 0;
+
+    font-size: 24px;
+
+    text-align: center;
+
+    color: #414141;
+
+} 
+
+
+.card{
+    border: none;
+    margin: 5px;
+    width: 350px;
+    /* border: rgb(168, 167, 167) 1px solid; */
+    box-shadow: 0 10px 20px rgba(31, 31, 31, 0.4);
+
+    /* background-color: red; */
+    /* margin: 20px; */
+}
+.myCards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.container{
+    margin-top: 5%;
+}
+
+.icon img{
+    width: 100% !important;
+    height: 100% !important;
+}
+.featured-heading{
+margin-bottom: 60px;
+}
+
+
+
+
+/* //search */
+
+.search-room-input{
+    /* border: 2px solid black !important;  */
+    width: 40%;
+    margin: 20px !important;
+
+}
+
+
+
+
+
+/* SINGLE ROOM */
+
+.singleRoom-cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.singleRoom-cards .card{
+    margin: 20px;
+}
+
+
+.bookNow-btn{
+    background-color: #1f5156;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.single-room-detail{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* background-color: red; */
+}
+
+
+.single-room-detail-para{
+    width: 600px;
+    /* background-color: yellow; */
+    text-align: justify;
+    /* padding-left: 20px; */
+    padding: 20px;
+    margin-left: 30px;
+
+}
+
+
+.single-room-detail-list{
+    width: 600px;
+    padding: 20px;
+    padding-left: 150px;
+    margin-left: 30px;
+/* padding-left: 100px; */
+    /* background-color:purple; */
+}
+
+.room-details-heading{
+    margin-top: 50px;
+}
+.single-room-detail-list2{
+    width: 400px;
+    padding: 20px;
+    margin-left:25px;
+/* padding-left: 100px; */
+    /* background-color:purple; */
+}
+
+.single-room-detail-list2 p{
+    line-height: 40px;
+}
+
+.white{
+    color: white;
+}

@@ -1,0 +1,17 @@
+.copyrightBar{
+    background-color: #1f5156 !important;
+    height: 60px !important;
+    /* height: 30%; */
+    /* margin: 0px !important; */
+    /* padding: 0px !important; */
+    margin-bottom: -20px;
+    /* display: flex !important; */
+    width: auto !important;
+    }
+    .copyrightBar p{
+      padding-top: 10px;
+      /* float: right; */
+      color: white;
+      /* margin-left: 65%; */
+      text-align: center !important; 
+    }
